@@ -1,8 +1,8 @@
 <div class="container-fluid">
-    <div class="row bg-success justify-content-center
+    <div class="row sm-success justify-content-center
             align-items-center" style="height:80px">
         <div class="col-3"></div>
-        <div class="col-6 text-light h2">
+        <div class="col-6 text-dark h2">
             Today's Schedule
         </div>
     </div>
@@ -12,7 +12,7 @@
         <div class="col-3 d-none col-md-3 d-md-block"></div>
         <div class="col-12 col-md-6 bg-secondary d-flex 
                     justify-content-center align-items-center 
-                    text-light h3">
+                    text-dark h3">
   
             <input [(ngModel)]="newTask" type="text" 
                     value="" class="col-7 form-control"
@@ -38,7 +38,7 @@
                     justify-content-center align-items-center
                     text-light h3">
   
-            <div class="col-9 text-light h3">{{x}}</div>
+            <div class="col-9 text-dark h3">{{x}}</div>
   
             <input (click)="deleteTask(index)" type="button"
                 value="Delete" class="col-2 btn btn-danger">
